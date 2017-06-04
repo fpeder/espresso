@@ -1,0 +1,15 @@
+[
+    {"type": "ndense", "val": 4},
+    {"type": "nbnorm", "val": 4},
+
+    {"type": "input", "dim": [28, 28, 1]},
+    
+    {"type": "dense", "dim": [4096, 784]},
+    {"type": "bnorm", "dim": 4096},
+    {"type": "dense", "dim": [4096, 4096]},
+    {"type": "bnorm", "dim": 4096},
+    {"type": "dense", "dim": [4096, 4096]},
+    {"type": "bnorm", "dim": 4096},
+    {"type": "dense", "dim": [10, 4096]},
+    {"type": "bnorm", "dim": 10}
+]
