@@ -8,7 +8,6 @@
 #include <math.h>
 #include <assert.h>
 
-#include "scratch.h"
 
 #ifdef __cplusplus
 extern "C" {

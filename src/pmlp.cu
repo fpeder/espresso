@@ -1,5 +1,5 @@
 #include "util.cuh"
-#include "cupmlp.h"
+#include "nn/cupmlp.h"
 
 
 cupmlp cupmlp_init(int Ndl, int Nbnl)

@@ -1,7 +1,7 @@
 #include "util.h"
 #include "layers.h"
 #include "params.h"
-#include "cnn.h"
+#include "nn/cnn.h"
 
 
 cnn cnn_init(int Ncl, int Npl, int Ndl, int Nbnl)

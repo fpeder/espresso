@@ -1,6 +1,6 @@
 #include "util.cuh"
 #include "culayers.h"
-#include "cucnn.h"
+#include "nn/cucnn.h"
 
 
 cucnn cucnn_init(int Ncl, int Npl, int Ndl, int Nbnl)

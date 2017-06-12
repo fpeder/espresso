@@ -1,5 +1,4 @@
 build/
-test/
 cifar_test
 cifar_params
 mnist_test

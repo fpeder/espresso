@@ -32,7 +32,8 @@ float *cufmem_reserve(int bytes)
 
 void cufmem_free()
 {
-     if (fptr.base) {cudaFree(fptr.base); PTR_INIT(fptr);}
+     if (fptr.base) cudaFree(fptr.base);
+     PTR_INIT(fptr);
 }
 
 void cufmem_reset()
@@ -62,7 +63,8 @@ uint64_t *cupmem_reserve(int bytes)
 
 void cupmem_free()
 {
-     if (pptr.base) {cudaFree(pptr.base); PTR_INIT(pptr);}
+     if (pptr.base) cudaFree(pptr.base);
+     PTR_INIT(pptr);
 }
 
 void cupmem_reset()

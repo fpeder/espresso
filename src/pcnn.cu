@@ -1,5 +1,5 @@
 #include "util.cuh"
-#include "cupcnn.h"
+#include "nn/cupcnn.h"
 
 
 cupcnn cupcnn_init(int Ncl, int Npl, int Ndl, int Nbnl)

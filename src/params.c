@@ -1,7 +1,7 @@
 #include "util.h"
 #include "layers.h"
-#include "mlp.h"
-#include "cnn.h"
+#include "nn/mlp.h"
+#include "nn/cnn.h"
 
 
 static inline

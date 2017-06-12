@@ -15,7 +15,7 @@
 
 
 void mnist_load_X(const char *tf, int start, int num,
-                      ftens *X)
+                  ftens *X)
 {
      ASSERT(start + num < TRAIN_IMG, "mnist err img");
      uint8_t buff[W*H];

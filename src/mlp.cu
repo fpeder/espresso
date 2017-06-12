@@ -1,5 +1,5 @@
 #include "util.cuh"
-#include "cumlp.h"
+#include "nn/cumlp.h"
 
 
 

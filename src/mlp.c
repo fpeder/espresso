@@ -1,6 +1,6 @@
 #include "util.h"
 #include "params.h"
-#include "mlp.h"
+#include "nn/mlp.h"
 
 
 mlp mlp_init(int Ndl, int Nbnl)
